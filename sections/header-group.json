@@ -1,0 +1,228 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+    "type": "header",
+    "name": "t:groups.header_group.name",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement_VJMVDX": {
+            "type": "announcement",
+            "settings": {
+              "title": "<h3>Free Shipping on Orders $250+</h3>",
+              "title_mobile": "<h3>Free Shipping on Orders $250+</h3>",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement_VJMVDX"
+        ],
+        "settings": {
+          "autoplay_enabled": true,
+          "autoplay_delay": 4,
+          "color_background": "#06528f",
+          "color_text": "#ffffff"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "meganav-0": {
+            "type": "full_width_meganav",
+            "settings": {
+              "dropdown_parent_link": "Shop",
+              "column_count": 3,
+              "show_column_borders": true,
+              "show_promo": true,
+              "promo_width": 700,
+              "promo_height": 400,
+              "secondary_position": "right",
+              "focal_point": "top",
+              "promo_text": "Discover Fatigue",
+              "link": "shopify://collections/fatigue-shop-by-print",
+              "link_text": "Explore",
+              "text_position": "flex-start_flex-end",
+              "text_color": "#ffffff",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 22%, rgba(0, 0, 0, 1) 96%)",
+              "overlay_opacity": 26
+            }
+          },
+          "meganav-1": {
+            "type": "compact_meganav",
+            "settings": {
+              "dropdown_parent_link": "New",
+              "columns_width": 220,
+              "column_count": 1,
+              "show_column_borders": false,
+              "show_promo": true,
+              "promo_width": 500,
+              "promo_height": 380,
+              "secondary_position": "right",
+              "focal_point": "image_presentation",
+              "promo_text": "New Arrivals",
+              "link": "shopify://collections/new-arrivals",
+              "link_text": "Explore",
+              "text_position": "flex-start_flex-end",
+              "text_color": "#ffffff",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 1) 96%)",
+              "overlay_opacity": 17
+            }
+          },
+          "0f99502c-f483-4b27-8897-092c1e06e474": {
+            "type": "compact_meganav",
+            "settings": {
+              "dropdown_parent_link": "Swimwear",
+              "columns_width": 240,
+              "column_count": 1,
+              "show_column_borders": true,
+              "show_promo": true,
+              "promo_width": 550,
+              "promo_height": 250,
+              "secondary_position": "right",
+              "focal_point": "left",
+              "promo_text": "Find your suit",
+              "link": "shopify://collections/swim",
+              "link_text": "Discover Swim",
+              "text_position": "flex-start_center",
+              "text_color": "#ffffff",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 7
+            }
+          },
+          "bbc84051-c1da-4132-973d-45cefe5cdc98": {
+            "type": "compact_meganav",
+            "settings": {
+              "dropdown_parent_link": "Apparel",
+              "columns_width": 220,
+              "column_count": 1,
+              "show_column_borders": true,
+              "show_promo": true,
+              "promo_width": 430,
+              "promo_height": 440,
+              "secondary_position": "right",
+              "focal_point": "image_presentation",
+              "promo_text": "Explore Resort Casual",
+              "link": "shopify://collections/resort-dresses",
+              "link_text": "Shop Dresses",
+              "text_position": "flex-start_flex-end",
+              "text_color": "#ffffff",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 0
+            }
+          },
+          "88d3da3f-3fce-44ed-9944-e866b2af4081": {
+            "type": "compact_meganav",
+            "settings": {
+              "dropdown_parent_link": "Accessories",
+              "columns_width": 220,
+              "column_count": 1,
+              "show_column_borders": true,
+              "show_promo": true,
+              "promo_width": 550,
+              "promo_height": 330,
+              "secondary_position": "right",
+              "focal_point": "image_presentation",
+              "promo_text": "The Perfect Gift",
+              "link": "shopify://collections/beach-totes",
+              "link_text": "Shop Totes",
+              "text_position": "center_flex-start",
+              "text_color": "#ffffff",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 6
+            }
+          },
+          "3c892e66-749c-408d-93cc-f78369345174": {
+            "type": "compact_meganav",
+            "settings": {
+              "dropdown_parent_link": "Last Call",
+              "columns_width": 220,
+              "column_count": 1,
+              "show_column_borders": true,
+              "show_promo": true,
+              "promo_width": 550,
+              "promo_height": 330,
+              "secondary_position": "right",
+              "focal_point": "image_presentation",
+              "promo_text": "Up to 80% off!",
+              "link": "shopify://collections/last-call-1",
+              "link_text": "Shop Now",
+              "text_position": "flex-start_center",
+              "text_color": "#ffffff",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 30
+            }
+          },
+          "0ad642c5-5836-441b-a831-f40e413d21d4": {
+            "type": "compact_meganav",
+            "settings": {
+              "dropdown_parent_link": "Discover",
+              "columns_width": 500,
+              "column_count": 1,
+              "show_column_borders": true,
+              "show_promo": true,
+              "promo_width": 600,
+              "promo_height": 280,
+              "secondary_position": "right",
+              "focal_point": "image_presentation",
+              "promo_text": "Gwyn + Missy",
+              "link": "shopify://pages/our-story-1",
+              "link_text": "Our Story",
+              "text_position": "flex-start_flex-start",
+              "text_color": "#111111",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 9
+            }
+          }
+        },
+        "block_order": [
+          "meganav-0",
+          "meganav-1",
+          "0f99502c-f483-4b27-8897-092c1e06e474",
+          "bbc84051-c1da-4132-973d-45cefe5cdc98",
+          "88d3da3f-3fce-44ed-9944-e866b2af4081",
+          "3c892e66-749c-408d-93cc-f78369345174",
+          "0ad642c5-5836-441b-a831-f40e413d21d4"
+        ],
+        "custom_css": [],
+        "settings": {
+          "layout": "logo-left_nav-left",
+          "enable_sticky_header": true,
+          "divider_width": "0px",
+          "enable_locale_selector": false,
+          "enable_country_selector": false,
+          "show_social_media": false,
+          "logo": "shopify://shop_images/New_Project.png",
+          "logo_width": 200,
+          "mobile_logo_width": 110,
+          "menu": "main-menu",
+          "secondary_menu": "",
+          "enable_transparent_on_home": false,
+          "enable_transparent_template_list": "",
+          "logo_transparent": "shopify://shop_images/DALL_E_2025-04-03_05.58.02_-_Remove_the_background_color_from_the_existing_logo_for__GearTrendShop___a_modern_and_elegant_text-based_logo._The_design_should_have_no_background__ma-rem.png",
+          "color_text_transparent": "#ffffff",
+          "color_count_transparent": "#000000"
+        }
+      }
+    },
+    "order": [
+      "announcement-bar",
+      "header"
+    ]
+  }
+  

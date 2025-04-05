@@ -1,0 +1,182 @@
+{% layout none %}
+{% assign file_extension = 'png' %}
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media
+  assign product_link = product.url | within: collection
+-%}
+
+<div class="frenzy-modal">
+  <script  type="application/ld+json" id="frenzy_procut_feed_data">
+    {{ product | json }}
+  </script>
+  <div class="frenzy-modal-backdrop frenzyModalCloseTrigger"></div>
+  <div class="frenzy-modal-dialog">
+    <div class="frenzy-modal-content">
+      <div class="frenzy-modal-left-column">
+        <div class="frenzy-layer-contain">
+          {% assign featured_image = product.selected_or_first_available_variant.featured_image | default: product.featured_image %}
+           <div class="images">
+                <div class="swiper-slide1"> <img src="{{featured_image | img_url: '291x' }}" alt="{{ product.title }}" title="{{ product.title }}"  loading="lazy"/> </div>
+            </div>
+          {% comment %}
+          <div class="swiper frenzyImageSlider">
+            <div class="swiper-wrapper">
+              {% for image in product.images %}
+                <div class="swiper-slide" data-key="{{ forloop.index }}"> <a href="{{ product.url }}" target="_blank"><img src="{{ image.src | img_url: 'master' }}" alt="{{ product.title }}" title="{{ product.title }} " /> </a></div>
+              {%- endfor -%}
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="swiper frenzyThumbsSlider">
+            <div class="swiper-wrapper">
+              {% for image in product.images %}
+                <div class="swiper-slide" data-key="{{ forloop.index }}"> <img src="{{ image.src | img_url: '100x' }}" alt="{{ product.title }}" title="{{ product.title }} " /> </div>
+              {%- endfor -%}
+            </div>
+          </div>
+          {% endcomment %}
+        </div>      
+      </div>
+      <div class="frenzy-modal-right-column fmrc-mobile-1">
+        <div class="frenzy-middle-container">
+          <a href="{{ product.url }}" target="_blank"><h2>{{ product.title }}</h2></a>    
+           <div class="product__vendor_and_sku">
+              <div class="product__vendor fs-body-100 t-opacity-70">{{ product.vendor | link_to_vendor }}</div>
+              <div class="product__sku fs-body-25 t-opacity-60" data-product-sku>
+                {%- if current_variant.sku != blank -%}
+                    {{ 'products.product.sku_with_value' | t: value: current_variant.sku }}
+                {%- endif -%}
+              </div>
+          </div>
+          <div class="frenzy-quickview-price">      
+            {% if product.compare_at_price %} 
+              <span class="fqp-compare-price" id="fqp_compare_price">{{ product.compare_at_price | money }}</span> 
+            {% endif %}
+            <span id="fqp_price" class="fqp-price">{{ product.price | money }}</span>
+            
+          </div>  
+          <a href="{{ product.url }}" class="view_page" target="_blank">View product details</a>
+        </div>
+        </div>
+        <div class="frenzy-modal-right-column fmrc-mobile-2">
+           <div class="frenzy-middle-container">
+             <a href="{{ product.url }}" target="_blank"><h2>{{ product.title }}</h2></a>     
+             <div class="product__vendor_and_sku">
+                <div class="product__vendor fs-body-100 t-opacity-70">{{ product.vendor | link_to_vendor }}</div>
+                <div class="product__sku fs-body-25 t-opacity-60" data-product-sku>
+                  {%- if current_variant.sku != blank -%}
+                      {{ 'products.product.sku_with_value' | t: value: current_variant.sku }}
+                  {%- endif -%}
+                </div>
+            </div>
+          <div class="frenzy-quickview-price">      
+            {% if product.compare_at_price %} 
+              <span class="fqp-compare-price" id="fqp_compare_price">{{ product.compare_at_price | money }}</span> 
+            {% endif %}
+            <span id="fqp_price" class="fqp-price">{{ product.price | money }}</span>
+            
+          </div>  
+          <a href="{{ product.url }}" class="view_page" target="_blank">View product details</a>
+          {% assign seletedVariant = product.variants.first.title | split:' / ' %}
+          <div class="frenzy-option-selectors">               
+            {% for option in product.options %}
+              {% assign option_index = forloop.index0 %}    
+
+            {% if option == 'color' or option == 'Color' or option == 'colors' or option == 'Colors' %}
+            <fieldset class="frenzy-option-fieldset frenzy-option-{{ option | handle }}" data-frenzy-option="{{ option_index }}">
+                <legend class="frenzy-option-label">{{ option }}</legend>
+                <ul class="frenzy-option-selector-btns">
+                  {% assign values = '' %}
+                  {% for variant in product.variants %}
+                  {% assign value = variant.options[option_index] %}
+                  {% unless values contains value %}
+                  {% assign values = values | join: ',' %}
+                  {% assign values = values | append: ',' | append: value %} 
+                  {% assign values = values | split: ',' %}             
+                  <li>
+                    <!-- <input class="frenzy-osb-input" type="radio" {% if seletedVariant[option_index] ==  value %}checked{% endif %} data-option="{{ option_index }}" name="frenzy-selector-{{ option_index }}" id="frenzy-selector-{{ option | handle }}-value-{{ value | handle }}" value="{{ value }}">
+                    <label class="frenzy-osb-label" data-swatch="{{ value }}" for="frenzy-selector-{{ option | handle }}-value-{{ value | handle }}" style="background-image: url({{ value | handle | append: '.' | append: file_extension | file_url }})">
+                      <span class="opt-label__text">{{ value }}</span>
+                    </label> -->
+                    <button style="background-image: url({{ value | handle | append: '.' | append: file_extension | file_url }})" id="frenzy-osb-label--{{ forloop.index }}" data-value="{{ value }}" class="frenzy-osb-label frenzy-osb-button {% if seletedVariant[option_index] ==  value %}is-selected-btn{% endif %}" data-option="{{ option_index }}" data-swatch="{{ value }}" for="frenzy-selector-{{ option | handle }}-value-{{ value | handle }}">
+                        <span class="opt-label__text">{{ value }}</span>
+                     </button>
+                  </li>
+                  {% endunless %}
+                  {% endfor %}              
+                </ul>
+              </fieldset>
+            {% else %}
+              <fieldset class="frenzy-option-fieldset frenzy-option-{{ option | handle }}" data-frenzy-option="{{ option_index }}">
+                <legend class="frenzy-option-label">{{ option }}</legend>
+                {% comment %}
+                <select name="opation_select" >
+                  {% assign values = '' %}
+                  {% for variant in product.variants %}
+                    {% assign value = variant.options[option_index] %}
+                    {% unless values contains value %}
+                      {% assign values = values | join: ',' %}
+                      {% assign values = values | append: ',' | append: value %} 
+                      {% assign values = values | split: ',' %}             
+                        <option data-option="{{ option_index }}" {% if seletedVariant[option_index] ==  value %}selected{% endif %} value="{{ value }}">{{ value }}</option>
+                    {% endunless %}
+                  {% endfor %}
+                </select>
+               {% endcomment %}
+                <ul class="frenzy-option-selector-btns">
+                  {% assign values = '' %}
+                  {% for variant in product.variants %}
+                  {% assign value = variant.options[option_index] %}
+                  {% unless values contains value %}
+                  {% assign values = values | join: ',' %}
+                  {% assign values = values | append: ',' | append: value %} 
+                  {% assign values = values | split: ',' %}             
+                  <li>
+                    <!-- <input class="frenzy-osb-input" type="radio" {% if seletedVariant[option_index] ==  value %}checked{% endif %} data-option="{{ option_index }}" name="frenzy-selector-{{ option_index }}" id="frenzy-selector-{{ option | handle }}-value-{{ value | handle }}" value="{{ value }}">
+                    <label class="frenzy-osb-label" data-swatch="{{ value }}" for="frenzy-selector-{{ option | handle }}-value-{{ value | handle }}">
+                      <span class="opt-label__text">{{ value }}</span>
+                    </label> -->
+                    <button id="frenzy-osb-label--{{ forloop.index }}" data-value="{{ value }}" class="frenzy-osb-label frenzy-osb-button {% if seletedVariant[option_index] ==  value %}is-selected-btn{% endif %}" data-option="{{ option_index }}" data-swatch="{{ value }}" for="frenzy-selector-{{ option | handle }}-value-{{ value | handle }}">
+                        <span class="opt-label__text">{{ value }}</span>
+                     </button>
+                  </li>
+                  {% endunless %}
+                  {% endfor %}              
+                  </ul>
+              </fieldset>
+            {% endif %}
+              
+            {% endfor %}
+          </div>
+          {% comment %}<div class="qty_control">
+            {% assign label_classes = 'fs-body-100' %}
+            
+            <div class="product__controls-group product__controls-group-quantity  product__block product__block--medium">
+              <div class="product__label-wrapper product__label-wrapper--collapse">
+                <label class="product__label {{ label_classes }}" for="Quantity-Input-{{ product.id }}">
+                  {{ 'products.product.quantity' | t }}
+                </label>
+              </div>
+              <div class="product__item">
+                {% render 'quantity-input' with id: product.id, initial_value: '1' %}
+              </div>
+            </div>
+          </div>{% endcomment %}
+          <div class='proudct_desc'>
+            <div class="product__description product__block product__block--medium">
+              <div class="rte rte--product ff-body fs-body-100">
+                {{ product.description }}
+              </div>
+            </div>
+          </div>
+          <div class="frenzy_productBtn">
+            <button type="submit" class="frenzyQuickViewAddToCart bttn bttn--secondary" {% unless product.variants.first.available %}disabled{% endunless %} {{ product.variants.first.available }} data-id="{{ product.variants.first.id }}" >{% if product.variants.first.available %}Add to Cart{% else %}Out of Stock{% endif %}</button>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="frenzy-modal-close frenzyModalCloseTrigger"><svg viewBox="0 0 20 20"><path d="m11.414 10 4.293-4.293a.999.999 0 1 0-1.414-1.414L10 8.586 5.707 4.293a.999.999 0 1 0-1.414 1.414L8.586 10l-4.293 4.293a.999.999 0 1 0 1.414 1.414L10 11.414l4.293 4.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L11.414 10z"></path></svg></button>  
+    </div>
+  </div>
+</div>

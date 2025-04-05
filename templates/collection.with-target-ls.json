@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 70,
+        "focal_point": "image_presentation",
+        "text_position": "center_flex-start",
+        "text_position_mobile": "center_flex-start",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 30,
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "d4056802-a9f4-402d-b2fd-0f070210daf4": {
+      "type": "promotion-bar",
+      "disabled": true,
+      "settings": {
+        "min_height": 60,
+        "min_height_mobile": 60,
+        "heading": "40% Off All Navy Swim and Resort Wear",
+        "text": "<p>Limited Time! - through 12/17</p>",
+        "link": "shopify://pages/sale-details",
+        "link_text": "Sale Details",
+        "button_style": "btn--secondary",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "background_color": "#0b182f",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "shoppable_feature_Naai46": {
+      "type": "shoppable-feature",
+      "blocks": {
+        "hotspot_Rb3gyE": {
+          "type": "hotspot",
+          "settings": {
+            "product_item": "hook-back-tortoise-bandeau-textured-white",
+            "horizontal_position": 27,
+            "vertical_position": 54
+          }
+        },
+        "hotspot_azFNWE": {
+          "type": "hotspot",
+          "settings": {
+            "product_item": "essential-wrap-petal-pink",
+            "horizontal_position": 48,
+            "vertical_position": 45
+          }
+        },
+        "hotspot_NtfrqC": {
+          "type": "hotspot",
+          "settings": {
+            "product_item": "shirred-bottom-textured-white",
+            "horizontal_position": 55,
+            "vertical_position": 33
+          }
+        }
+      },
+      "block_order": ["hotspot_Rb3gyE", "hotspot_azFNWE", "hotspot_NtfrqC"],
+      "settings": {
+        "image": "shopify://shop_images/textured_white_swim_and_petal_pink_essential_wrap_ti.webp",
+        "image_position": "left",
+        "image_size": 53,
+        "aspect_ratio": "portrait_alt",
+        "heading": "Beach Perfection",
+        "subheading": "<h5>New in Textured White Swim</h5>",
+        "link": "https://www.helenjon.com/products/nola-tunic-coral-pink",
+        "link_text": "",
+        "button_style": "btn--callout",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_position_desktop": "inside"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "2",
+        "rows": "3",
+        "show_item_count": false,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "3col",
+        "pagination": "click",
+        "enable_animation": true,
+        "divider_style": "none"
+      }
+    },
+    "d29fb1e9-6c87-432e-8002-0bc563fcc103": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14654751408163__d29fb1e9-6c87-432e-8002-0bc563fcc103-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "template--14654751408163__d29fb1e9-6c87-432e-8002-0bc563fcc103-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.description_tag | metafield_tag }}</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654751408163__d29fb1e9-6c87-432e-8002-0bc563fcc103-heading-1",
+        "template--14654751408163__d29fb1e9-6c87-432e-8002-0bc563fcc103-text-1"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "d4056802-a9f4-402d-b2fd-0f070210daf4",
+    "shoppable_feature_Naai46",
+    "product-grid",
+    "d29fb1e9-6c87-432e-8002-0bc563fcc103"
+  ]
+}

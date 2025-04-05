@@ -1,0 +1,341 @@
+{
+    "sections": {
+      "slideshow_RpmKm7": {
+        "type": "slideshow",
+        "blocks": {
+          "slide_wLz4Dc": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify://shop_images/image_hero.webp",
+              "image_mobile": "shopify://shop_images/01.jpg",
+              "focal_point": "image_presentation",
+              "mobile_focal_point": "image_presentation",
+              "media_link": "shopify://collections",
+              "text_position": "center_center",
+              "text_position_mobile": "center_center",
+              "accent": "",
+              "title": "Welcome to our store.",
+              "heading_font_class": "fs-heading-display-3",
+              "subheading": "",
+              "subheading_font_class": "fs-heading-6-base",
+              "text": "<p>Your destination for fashion-forward women's clothing.  New products added daily, sign up for email and get 15% off your first order.</p>",
+              "text_font_class": "fs-body-75",
+              "link_1": "",
+              "link_text_1": "Read more",
+              "button_style_1": "btn--primary",
+              "link_2": "",
+              "link_text_2": "Read more",
+              "button_style_2": "btn--primary",
+              "text_color": "#ffffff",
+              "button_background_color": "#ffffff",
+              "button_text_color": "#000000",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 0
+            }
+          },
+          "slide_e9xb9c": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify://shop_images/image_hero.webp",
+              "image_mobile": "shopify://shop_images/01.jpg",
+              "focal_point": "image_presentation",
+              "mobile_focal_point": "image_presentation",
+              "media_link": "shopify://collections",
+              "text_position": "center_center",
+              "text_position_mobile": "center_center",
+              "accent": "",
+              "title": "Always latest trends.",
+              "heading_font_class": "fs-heading-display-3",
+              "subheading": "",
+              "subheading_font_class": "fs-heading-6-base",
+              "text": "<p>From trendy outerwear to must-have dresses, we offer collections that will make you look and feel your best, no matter the season.</p>",
+              "text_font_class": "fs-body-75",
+              "link_1": "",
+              "link_text_1": "Read more",
+              "button_style_1": "btn--primary",
+              "link_2": "",
+              "link_text_2": "Read more",
+              "button_style_2": "btn--primary",
+              "text_color": "#ffffff",
+              "button_background_color": "#ffffff",
+              "button_text_color": "#000000",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 0
+            }
+          },
+          "slide_6erVyD": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify://shop_images/image_hero.webp",
+              "image_mobile": "shopify://shop_images/01.jpg",
+              "focal_point": "image_presentation",
+              "mobile_focal_point": "image_presentation",
+              "media_link": "shopify://collections",
+              "text_position": "center_center",
+              "text_position_mobile": "center_center",
+              "accent": "",
+              "title": "Always for the customers",
+              "heading_font_class": "fs-heading-display-3",
+              "subheading": "",
+              "subheading_font_class": "fs-heading-5-base",
+              "text": "<p>Whether you purchase a product from our store or not, please subscribe to our mailing list or leave your contact information. Unexpected benefits await you.</p>",
+              "text_font_class": "fs-body-75",
+              "link_1": "",
+              "link_text_1": "Read more",
+              "button_style_1": "btn--primary",
+              "link_2": "",
+              "link_text_2": "Read more",
+              "button_style_2": "btn--primary",
+              "text_color": "#ffffff",
+              "button_background_color": "#ffffff",
+              "button_text_color": "#000000",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 0
+            }
+          },
+          "slide_DeNBbP": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify://shop_images/image_hero.webp",
+              "image_mobile": "shopify://shop_images/01.jpg",
+              "focal_point": "image_presentation",
+              "mobile_focal_point": "image_presentation",
+              "media_link": "shopify://collections",
+              "text_position": "center_center",
+              "text_position_mobile": "center_center",
+              "accent": "",
+              "title": "Always be satisfied",
+              "heading_font_class": "fs-heading-display-3",
+              "subheading": "",
+              "subheading_font_class": "fs-heading-5-base",
+              "text": "<p>Whether you're looking for cozy outerwear, chic dresses, or something in between, we have something just for you</p>",
+              "text_font_class": "fs-body-75",
+              "link_1": "",
+              "link_text_1": "Read more",
+              "button_style_1": "btn--primary",
+              "link_2": "",
+              "link_text_2": "Read more",
+              "button_style_2": "btn--primary",
+              "text_color": "#ffffff",
+              "button_background_color": "#ffffff",
+              "button_text_color": "#000000",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 0
+            }
+          },
+          "slide_eFaQeP": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify://shop_images/image_hero.webp",
+              "image_mobile": "shopify://shop_images/05.jpg",
+              "focal_point": "image_presentation",
+              "mobile_focal_point": "image_presentation",
+              "media_link": "shopify://collections",
+              "text_position": "center_center",
+              "text_position_mobile": "center_center",
+              "accent": "",
+              "title": "Always be beautiful",
+              "heading_font_class": "fs-heading-display-3",
+              "subheading": "",
+              "subheading_font_class": "fs-heading-5-base",
+              "text": "<p> Explore our collections and find your new favorite pieces today</p>",
+              "text_font_class": "fs-body-75",
+              "link_1": "",
+              "link_text_1": "Read more",
+              "button_style_1": "btn--primary",
+              "link_2": "",
+              "link_text_2": "Read more",
+              "button_style_2": "btn--primary",
+              "text_color": "#ffffff",
+              "button_background_color": "#ffffff",
+              "button_text_color": "#000000",
+              "color_overlay": "#000000",
+              "color_overlay_gradient": "",
+              "overlay_opacity": 0
+            }
+          }
+        },
+        "block_order": [
+          "slide_wLz4Dc",
+          "slide_e9xb9c",
+          "slide_6erVyD",
+          "slide_DeNBbP",
+          "slide_eFaQeP"
+        ],
+        "settings": {
+          "image_aspect": "original",
+          "desktop_height": 50,
+          "mobile_height": 50,
+          "enable_autoplay": true,
+          "duration_autoplay": 6,
+          "navigation_alignment": "center",
+          "navigation_color_foreground": "#ffffff",
+          "navigation_color_background": "",
+          "navigation_background_opacity": 100,
+          "enable_animation": true,
+          "section_padding": "none"
+        }
+      },
+      "d71df2af-ba99-428a-9772-57ebe99ef94d": {
+        "type": "newsletter-compact",
+        "blocks": {
+          "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-0": {
+            "type": "text_content",
+            "settings": {
+              "width": "600",
+              "title": "Save on your first order",
+              "heading_font_class": "fs-heading-4-base",
+              "subheading": "",
+              "subheading_font_class": "fs-heading-6-base",
+              "text": "<p><br/>Sign up for our emails and get 15% off your first order, exclusive access to new releases, promotions, and more to inspire.</p>",
+              "text_font_class": "fs-body-75"
+            }
+          },
+          "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-1": {
+            "type": "newsletter_signup",
+            "settings": {
+              "signup_link_text": "Sign up",
+              "footer_text": "<p>By completing this form, you are signing up to receive our emails and can unsubscribe at any time.</p>"
+            }
+          }
+        },
+        "block_order": [
+          "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-0",
+          "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-1"
+        ],
+        "settings": {
+          "spacing_mode": "compact",
+          "alignment": "left",
+          "focal_point": "image_presentation",
+          "background_color": "#ff0000",
+          "text_color": "#ffffff",
+          "input_color": "#000000",
+          "input_background": "#ffffff",
+          "button_background_color": "#000000",
+          "button_text_color": "#ffffff",
+          "color_overlay": "#000000",
+          "color_overlay_gradient": "",
+          "overlay_opacity": 31,
+          "enable_animation": true,
+          "divider_style": "none",
+          "section_padding": "section--vertical-padding-top-bottom"
+        }
+      },
+      "featured_collection_slider_ah7mJi": {
+        "type": "featured-collection-slider",
+        "blocks": {
+          "collection_g9cbMb": {
+            "type": "collection",
+            "settings": {
+              "show_view_all": true,
+              "collection": "new-arrivals",
+              "collection_name": "New arrivals"
+            }
+          }
+        },
+        "block_order": ["collection_g9cbMb"],
+        "settings": {
+          "heading": "",
+          "subheading": "",
+          "link": "",
+          "link_text": "New arrivals",
+          "maximum_products": 15,
+          "columns": "5",
+          "mobile_columns": "2",
+          "enable_animation": true,
+          "divider_style": "none",
+          "section_padding": "section--vertical-padding-top-bottom"
+        }
+      },
+      "featured_collection_slider_ncDcc7": {
+        "type": "featured-collection-slider",
+        "blocks": {
+          "collection_wEhUnM": {
+            "type": "collection",
+            "settings": {
+              "show_view_all": true,
+              "collection": "featured-styles",
+              "collection_name": "Featured Styles"
+            }
+          },
+          "collection_y9rqGe": {
+            "type": "collection",
+            "settings": {
+              "show_view_all": true,
+              "collection": "best-sellers",
+              "collection_name": "Best Sellers"
+            }
+          }
+        },
+        "block_order": ["collection_wEhUnM", "collection_y9rqGe"],
+        "settings": {
+          "heading": "",
+          "subheading": "",
+          "link": "shopify://collections",
+          "link_text": "",
+          "maximum_products": 15,
+          "columns": "5",
+          "mobile_columns": "2",
+          "enable_animation": true,
+          "divider_style": "none",
+          "section_padding": "section--vertical-padding-top-bottom"
+        }
+      },
+      "collection_list_slider_Vy6MfK": {
+        "type": "collection-list-slider",
+        "custom_css": [],
+        "settings": {
+          "heading": "",
+          "subheading": "",
+          "link": "shopify://collections",
+          "link_text": "All collections",
+          "columns": "5",
+          "mobile_columns": "2",
+          "collection_list": [
+            "casual-dresses",
+            "activewear",
+            "denim-wears",
+            "outerwears",
+            "pants",
+            "shirts",
+            "skirts",
+            "sleepwear",
+            "jeans",
+            "jackets",
+            "leggings",
+            "maxi-dresses",
+            "rompers"
+          ],
+          "collection_listing_aspect_ratio": "portrait",
+          "label_style": "beneath",
+          "overlay_title_background_style": "gradient",
+          "overlay_text_color": "#ffffff",
+          "overlay_title_background": "#000000",
+          "enable_animation": true,
+          "divider_style": "none",
+          "section_padding": "section--vertical-padding-top-bottom"
+        }
+      },
+      "d5c685cf-8f78-4bb9-8ea7-8930028b4c60": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "<div class=\"frenzy_most_clicked_skus_section\"></div>",
+          "divider_style": "none",
+          "section_padding": "section--vertical-padding-top-only"
+        }
+      }
+    },
+    "order": [
+      "slideshow_RpmKm7",
+      "d71df2af-ba99-428a-9772-57ebe99ef94d",
+      "featured_collection_slider_ah7mJi",
+      "featured_collection_slider_ncDcc7",
+      "collection_list_slider_Vy6MfK",
+      "d5c685cf-8f78-4bb9-8ea7-8930028b4c60"
+    ]
+  }
+  

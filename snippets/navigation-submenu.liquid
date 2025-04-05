@@ -1,0 +1,76 @@
+<div
+  class="
+    navigation__submenu
+    ff-body
+    fs-body-100
+    {% if settings.enable_section_animations %}
+      animation
+      animation--dropdown
+    {% endif %}
+  "
+  id="{{ menu_id }}"
+  data-submenu
+  data-depth="{{ depth }}"
+  aria-hidden="true"
+
+  style="left : 20px; "
+  
+>
+  <ul class="navigation__submenu-list" style="display : flex; flex-wrap:wrap; flex-direction: row; width : 100vw; column-gap: 30px; padding : 0px;  position:fixed; left : 0px; padding-left:100px; padding-right:100px; padding-top : 20px; padding-bottom:20px; background: #ffffff; border : 1px solid #ccc;">
+    {%- assign depth = depth | plus: 1 -%}
+
+    {%- for link in menu -%}
+      {%- if link.links.size > 0 -%}
+        {%- assign has_children = true -%}
+      {%- endif -%}
+
+      <li class="navigation__submenu-item" style="margin:0px; padding:0px; height:30px; width : 130px; font-size : 16px;">
+        {%- if has_children -%}
+          {%- liquid
+            assign child_is_active = false
+            for link in link.links
+              if link.active
+                assign child_is_active = true
+                break
+              elsif link.links.size > 0
+                for link in link.links
+                  if link.active
+                    assign child_is_active = true
+                    break
+                  endif
+                endfor
+              endif
+            endfor
+          -%}
+
+          <a
+            class="navigation__submenu-trigger no-transition has-icon{% if child_is_active %} active{% endif %}"
+            data-dropdown-trigger
+            data-link
+            aria-haspopup="true"
+            aria-expanded="false"
+            href="{{ link.url }}"
+          >
+            <span class="navigation__submenu-child-link">
+              <label>{{ link.title }}</label>
+              {% render 'icon' with icon: 'chevron-small', class: "navigation__submenu-icon" %}
+            </span>
+          </a>
+
+          {% render 'navigation-submenu', menu: link.links, depth: depth %} 
+        {%- else -%}
+          <a
+            href="{{ link.url }}"
+            class="{%- if link.active -%}active{%- endif -%}"
+            {%- if link.active -%}
+              aria-current="page"
+            {%- endif -%}
+            data-link
+          >{{ link.title }}</a>
+        {%- endif -%}
+      </li>
+
+      {%- assign has_children = false -%}
+    {%- endfor -%}
+  </ul>
+</div>

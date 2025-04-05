@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}" style="--announcement-height: 1px;">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-TCD779CW');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta name="google-site-verification" content="rxNPfW0tUQvI7X-XP4NeQNzUBfpBnX29rcxCQyuEwHw">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta
+      name="keyword"
+      content="Casual Dresses, Activewear, Outerwears, Pants, Shirts, Skirts, Sleepwear, Jeans, Jackets, Leggings, Maxi Dresses, Rompers"
+    >
+    <meta
+      name="keywords"
+      content="Casual Dresses, Activewear, Outerwears, Pants, Shirts, Skirts, Sleepwear, Jeans, Jackets, Leggings, Maxi Dresses, Rompers"
+    >
+    {% render 'meta-description' %}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+
+    {%- if settings.favicon != blank -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png">
+    {%- endif -%}
+
+    {%- capture seo_title -%}
+      {%- if request.page_type == 'search' and search.performed == true -%}
+        {{ 'search.heading' | t: count: search.results_count }}:
+        {{ 'search.results_with_count' | t: terms: search.terms, count: search.results_count }}
+      {%- else -%}
+        {{ page_title }}
+      {%- endif -%}
+      {%- if current_tags -%}
+        {%- assign meta_tags = current_tags | join: ', ' -%}
+        &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+      {%- endif -%}
+      {%- if current_page != 1 -%}
+        &ndash; {{ 'general.meta.page' | t: page: current_page }}
+      {%- endif -%}
+      {%- assign escaped_page_title = page_title | escape -%}
+      {%- unless escaped_page_title contains shop.name -%}
+        &ndash; {{ shop.name }}
+      {%- endunless -%}
+    {%- endcapture -%}
+    <title>
+      {{ seo_title | strip }}
+      - Women's Apparel and Accessories
+    </title>
+    {%- render 'social-meta-tags' -%}
+    {%- render 'theme-setup' %}
+    {%- render 'theme-setting-vars' -%}
+    {%- render 'theme-globals' -%}
+    {{ content_for_header }}
+    {%- render 'bold-options-hybrid' -%}
+    {%- render 'bold-common' -%}
+    {% render 'sc-includes' %}
+    {% if template == 'product' and product.metafields.inventory.ShappifyHidden or product.type contains '_HIDDEN_' -%}
+      <meta name="robots" content="noindex">
+    {%- endif %}
+  </head>
+  <body class="template-{{ request.page_type | handle }}">
+    <div class="page" style="overflow-x: hidden;">
+      {%- if settings.enable_page_transitions -%}
+        {%- render 'page-transition-overlay' -%}
+      {%- endif -%}
+
+      <div class="theme-editor-scroll-offset"></div>
+      <div class="header__space" data-header-space></div>
+
+      {%- sections 'header-group' -%}
+      {%- sections 'overlay-group' -%}
+
+      {%- if settings.enable_quick_search -%}
+        {% render 'quick-search' %}
+      {%- endif -%}
+
+      <div class="header-overlay" data-header-overlay>
+        <div class="header-overlay__inner"></div>
+      </div>
+
+      <main id="main" class="main">
+        {{ content_for_layout }}
+      </main>
+      {%- sections 'footer-group' -%}
+      {%- render 'store-availability-drawer' -%}
+      {%- render 'quick-view-modal' -%}
+      {%- render 'modal' -%}
+      {%- render 'back-to-top' -%}
+      {% comment %} {%- render 'frenzy' -%} {% endcomment %}
+    </div>
+
+    {% comment %}
+      {{ '//www.youtube.com/iframe_api' | script_tag }}
+      {{ '//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.css' | stylesheet_tag }}
+    {% endcomment %}
+    <!-- BeginCFFPersistentCartCart -->
+    {%- if customer -%}
+      <script>
+        window.cffCustomer = {
+          name: '{{customer.name}}',
+          email: '{{customer.email}}',
+          hasAccount: '{{customer.has_account}}',
+          id: '{{customer.id}}',
+        };
+      </script>
+    {%- endif -%}
+
+    <script>
+      window.cffPLiquidPlaced = true;
+    </script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TCD779CW"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <style>
+      .article-item.animation--article-item.hover {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .article-item__content {
+        margin-top: -50px;
+        width: 90%;
+        left: 5%;
+      }
+
+      .article-item__content-inner {
+        background: #f7f9fd;
+      }
+    </style>
+  </body>
+</html>

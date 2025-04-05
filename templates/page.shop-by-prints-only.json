@@ -1,0 +1,1269 @@
+{
+  "sections": {
+    "52e6c5d9-2387-4e63-92ce-f0884ed13419": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__52e6c5d9-2387-4e63-92ce-f0884ed13419-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Nautical Weave",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__52e6c5d9-2387-4e63-92ce-f0884ed13419-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Bright and breezy, Nautical Weave combines crisp patterns with vibrant tropical energy. Perfect for sunny mornings by the water or sunset sails, it brings island charm to every moment.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__52e6c5d9-2387-4e63-92ce-f0884ed13419-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/south-seas-blue-periwinkle-shop-by-print",
+            "link_text": "Shop Nautical Weave",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__52e6c5d9-2387-4e63-92ce-f0884ed13419-heading-1",
+        "template--14568811167779__52e6c5d9-2387-4e63-92ce-f0884ed13419-subheading-1",
+        "template--14568811167779__52e6c5d9-2387-4e63-92ce-f0884ed13419-button-1"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/SBP_Nautical_Weave.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Nautical_Weave.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "edcda745-a6dc-40a3-9496-88c0d83a1c7c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14710778626083__edcda745-a6dc-40a3-9496-88c0d83a1c7c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Mint",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14710778626083__edcda745-a6dc-40a3-9496-88c0d83a1c7c-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Cool, contemporary and so on trend, this minty swimwear will add a flattering, fresh, and chic update to your seaside vibe.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14710778626083__edcda745-a6dc-40a3-9496-88c0d83a1c7c-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/mint-shop-by-print",
+            "link_text": "Try Mint",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14710778626083__edcda745-a6dc-40a3-9496-88c0d83a1c7c-heading-1",
+        "template--14710778626083__edcda745-a6dc-40a3-9496-88c0d83a1c7c-subheading-1",
+        "template--14710778626083__edcda745-a6dc-40a3-9496-88c0d83a1c7c-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJ28-0102MTS_HJ28-0301MTS_v1_Flip.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/mint_25199d19-37a7-4253-9473-a75e7b5f7c18.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "54793b59-f8e2-451e-be2d-9c0d517d89aa": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__54793b59-f8e2-451e-be2d-9c0d517d89aa-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Textured White",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__54793b59-f8e2-451e-be2d-9c0d517d89aa-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "There's no better way to show off your sun-kissed skin than by wearing a white suit. Our eco-friendly Textured White is perfect for the bride, or for anyone who wants to make a statement in the sun.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__54793b59-f8e2-451e-be2d-9c0d517d89aa-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/white-shop-by-print",
+            "link_text": "Discover Textured White",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__54793b59-f8e2-451e-be2d-9c0d517d89aa-heading-1",
+        "template--14568811167779__54793b59-f8e2-451e-be2d-9c0d517d89aa-subheading-1",
+        "template--14568811167779__54793b59-f8e2-451e-be2d-9c0d517d89aa-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Shop_by_Print_White.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/White_Texture.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "a149f673-6235-414d-b964-823c19b3ebf4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__a149f673-6235-414d-b964-823c19b3ebf4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Textured Chocolate Brown",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__a149f673-6235-414d-b964-823c19b3ebf4-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Elevate your style with rich,textured chocolate brown. Inspired by tropical palm trunks, this earthy hue adds warmth and versatility to your wardrobe for day-to-night elegance.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__a149f673-6235-414d-b964-823c19b3ebf4-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/textured-chocolate-brown",
+            "link_text": "Shop Chocolate Brown",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__a149f673-6235-414d-b964-823c19b3ebf4-heading-1",
+        "template--14568811167779__a149f673-6235-414d-b964-823c19b3ebf4-subheading-1",
+        "template--14568811167779__a149f673-6235-414d-b964-823c19b3ebf4-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Textured_Chocolate_Brown_c1c4b8bb-d080-4f7d-b956-2a79412ede00.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/textured-chocolate-brown.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "28dc47f9-441c-49b9-901e-f8ae01ff1521": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__28dc47f9-441c-49b9-901e-f8ae01ff1521-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Paradise Palm",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__28dc47f9-441c-49b9-901e-f8ae01ff1521-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Capture the essence of island life with Paradise Palm. Featuring swaying palm motifs and breezy white sands, this print radiates tranquil, tropical vibes perfect for effortless, sun-soaked adventures.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__28dc47f9-441c-49b9-901e-f8ae01ff1521-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/paradise-palm",
+            "link_text": "Explore Paradise Palm",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__28dc47f9-441c-49b9-901e-f8ae01ff1521-heading-1",
+        "template--14568811167779__28dc47f9-441c-49b9-901e-f8ae01ff1521-subheading-1",
+        "template--14568811167779__28dc47f9-441c-49b9-901e-f8ae01ff1521-button-1"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/shop_paradise_palm.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Paradise_Palm.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "acf81a28-8013-4dcd-af0b-24d7a17e5bd5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__acf81a28-8013-4dcd-af0b-24d7a17e5bd5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Coral",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__acf81a28-8013-4dcd-af0b-24d7a17e5bd5-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "A fresh twist on summer, our Coral swimsuits will remind you of brilliant tropical sunsets and the magic of vibrant coral reefs.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__acf81a28-8013-4dcd-af0b-24d7a17e5bd5-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/coral-shop-by-print",
+            "link_text": "Explore Coral",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__acf81a28-8013-4dcd-af0b-24d7a17e5bd5-heading-1",
+        "template--14568811167779__acf81a28-8013-4dcd-af0b-24d7a17e5bd5-subheading-1",
+        "template--14568811167779__acf81a28-8013-4dcd-af0b-24d7a17e5bd5-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Shop_by_Print_Coral.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/coral.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "4a20d2b1-abb0-419c-85c4-3da640f9c205": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__4a20d2b1-abb0-419c-85c4-3da640f9c205-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Gigi Floral",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__4a20d2b1-abb0-419c-85c4-3da640f9c205-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Our Gigi Floral is a beautiful coral print with bold pink and white accents that provide an air of timeless beauty and femininity.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__4a20d2b1-abb0-419c-85c4-3da640f9c205-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/gigi-floral-shop-by-print",
+            "link_text": "Shop Gigi Floral",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__4a20d2b1-abb0-419c-85c4-3da640f9c205-heading-1",
+        "template--14568811167779__4a20d2b1-abb0-419c-85c4-3da640f9c205-subheading-1",
+        "template--14568811167779__4a20d2b1-abb0-419c-85c4-3da640f9c205-button-1"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Shop_by_Print_Gigi.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/gigi-floral.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "d121142e-5585-4c5c-874b-20caff3e3581": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__d121142e-5585-4c5c-874b-20caff3e3581-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Textured Seafoam Aqua",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__d121142e-5585-4c5c-874b-20caff3e3581-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Nestled in between blue and green, our eco-friendly Seafoam Aqua refreshes your wardrobe like clear, crisp ocean water along a sandy beach",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__d121142e-5585-4c5c-874b-20caff3e3581-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/seafoam-aqua-shop-by-print",
+            "link_text": "Explore Seafoam Aqua",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__d121142e-5585-4c5c-874b-20caff3e3581-heading-1",
+        "template--14568811167779__d121142e-5585-4c5c-874b-20caff3e3581-subheading-1",
+        "template--14568811167779__d121142e-5585-4c5c-874b-20caff3e3581-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Seafoam_Aqua_SBP.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Seafoam.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_JbMtXn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fr3GYg": {
+          "type": "heading",
+          "settings": {
+            "title": "Marbella Tile",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "subheading_kixViL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Marbella Tile is your favorite geometric print to pair with our navy, seafoam, white, and sky blue solids. Here comes the sun!",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "button_KNYQiM": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/marbella-tile-shop-by-print",
+            "link_text": "Shop Marbella Tile",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": ["heading_fr3GYg", "subheading_kixViL", "button_KNYQiM"],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Marbella_Tile_SBP.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/marbella-tile.png",
+        "image_small_aspect_ratio": "landscape",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "d789a9d9-78ed-4270-af63-87e581c58563": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__d789a9d9-78ed-4270-af63-87e581c58563-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Coastal Stripe",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__d789a9d9-78ed-4270-af63-87e581c58563-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Anything but basic, this delicate Coastal Stripe print pairs perfectly with our black, mint, coastal blue or white solids, and provides understated glamour whether you're lounging poolside or strolling along the beach.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__d789a9d9-78ed-4270-af63-87e581c58563-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/coastal-stripe-shop-by-print",
+            "link_text": "Discover Coastal Stripe",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__d789a9d9-78ed-4270-af63-87e581c58563-heading-1",
+        "template--14568811167779__d789a9d9-78ed-4270-af63-87e581c58563-subheading-1",
+        "template--14568811167779__d789a9d9-78ed-4270-af63-87e581c58563-button-1"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Coastal_Stripe_Shop_by_Print.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/textured-coastal-stripe.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "d2384a6f-aaa5-462d-9187-13fab0bc4b48": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__d2384a6f-aaa5-462d-9187-13fab0bc4b48-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Black",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__d2384a6f-aaa5-462d-9187-13fab0bc4b48-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Chic. Classic. Smart. There's something about a black suit that inspires confidence. Always flattering, never boring, perfectly timeless.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__d2384a6f-aaa5-462d-9187-13fab0bc4b48-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/black-shop-by-print",
+            "link_text": "Shop Black",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__d2384a6f-aaa5-462d-9187-13fab0bc4b48-heading-1",
+        "template--14568811167779__d2384a6f-aaa5-462d-9187-13fab0bc4b48-subheading-1",
+        "template--14568811167779__d2384a6f-aaa5-462d-9187-13fab0bc4b48-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJRE-0161BKS_HJRE0334BKS.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Black.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": false,
+        "content_width": "custom",
+        "custom_content_width": 900
+      }
+    },
+    "1ad29b7e-f5fa-42cb-9de7-65d71ac7a7bf": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__1ad29b7e-f5fa-42cb-9de7-65d71ac7a7bf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Coastal Blue",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__1ad29b7e-f5fa-42cb-9de7-65d71ac7a7bf-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Serene and reminiscent of the tranquil hues found along the ocean's edge.  Think calm waters, clear skies, peaceful sophistication.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__1ad29b7e-f5fa-42cb-9de7-65d71ac7a7bf-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/coastal-blue-shop-by-print",
+            "link_text": "Explore Coastal Blue",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__1ad29b7e-f5fa-42cb-9de7-65d71ac7a7bf-heading-1",
+        "template--14568811167779__1ad29b7e-f5fa-42cb-9de7-65d71ac7a7bf-subheading-1",
+        "template--14568811167779__1ad29b7e-f5fa-42cb-9de7-65d71ac7a7bf-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Shop_by_Print_Block_CBS.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/coastal-blue-texture.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "5f184e07-b12c-479e-98d3-8fd9279efc20": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__5f184e07-b12c-479e-98d3-8fd9279efc20-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Malibu",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__5f184e07-b12c-479e-98d3-8fd9279efc20-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "With its white hues and subtle waves in rich shades of blue, Malibu will take you to the serenity of the coastal landscape in which it was inspired. The perfect print for an effortlessly elegant beach style.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__5f184e07-b12c-479e-98d3-8fd9279efc20-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/malibu-shop-by-print",
+            "link_text": "Experience Malibu",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__5f184e07-b12c-479e-98d3-8fd9279efc20-heading-1",
+        "template--14568811167779__5f184e07-b12c-479e-98d3-8fd9279efc20-subheading-1",
+        "template--14568811167779__5f184e07-b12c-479e-98d3-8fd9279efc20-button-1"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Shop_by_Print_Block_MBP.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/malibu.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "7f1b1fad-ad63-490f-8062-d200dff57501": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__7f1b1fad-ad63-490f-8062-d200dff57501-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Jungle de Rio",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__7f1b1fad-ad63-490f-8062-d200dff57501-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "A fun, flirty, floral motif that infuses a tropical jungle vibe into your beach attire.  Unleash exotic playfulness with this stylish, colorful swimwear.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__7f1b1fad-ad63-490f-8062-d200dff57501-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/jungle-de-rio-shop-by-print",
+            "link_text": "Explore Jungle de Rio",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__7f1b1fad-ad63-490f-8062-d200dff57501-heading-1",
+        "template--14568811167779__7f1b1fad-ad63-490f-8062-d200dff57501-subheading-1",
+        "template--14568811167779__7f1b1fad-ad63-490f-8062-d200dff57501-button-1"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJ28-0156JRP_HJ28-0339JRP_copy.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/jungle-de-rio_b363f2b4-8a05-485a-ae7c-8ea0901b2a82.png",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "5bd37d15-c222-46a6-a450-2df9da1ca154": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__5bd37d15-c222-46a6-a450-2df9da1ca154-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Watermelon Pink",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__5bd37d15-c222-46a6-a450-2df9da1ca154-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "A perfect shade of vibrant pink.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__5bd37d15-c222-46a6-a450-2df9da1ca154-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/watermelon-pink-shop-by-print",
+            "link_text": "Shop Watermelon Pink",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__5bd37d15-c222-46a6-a450-2df9da1ca154-heading-1",
+        "template--14568811167779__5bd37d15-c222-46a6-a450-2df9da1ca154-subheading-1",
+        "template--14568811167779__5bd37d15-c222-46a6-a450-2df9da1ca154-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJ26-0440WPS.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Watermelon_Pink.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "6a053ff9-1db7-45e6-9d5e-b8f4757537bd": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__6a053ff9-1db7-45e6-9d5e-b8f4757537bd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Navy",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__6a053ff9-1db7-45e6-9d5e-b8f4757537bd-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Navy is Helen Jon's signature solid. Our navy has stayed the same since our first season, making it the perfect introduction to our brand. Many of our prints are designed to mix-and-match back to navy—have fun making your own combinations!",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__6a053ff9-1db7-45e6-9d5e-b8f4757537bd-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/navy-shop-by-print",
+            "link_text": "Explore Navy",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__6a053ff9-1db7-45e6-9d5e-b8f4757537bd-heading-1",
+        "template--14568811167779__6a053ff9-1db7-45e6-9d5e-b8f4757537bd-subheading-1",
+        "template--14568811167779__6a053ff9-1db7-45e6-9d5e-b8f4757537bd-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJRE-0132NYS_HJRE-0334NYS_HJRE-0416NYS.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Navy.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Cap Ferrat",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspired by the iconic style and panache that defines the French Riveria of yesteryear, Cap Ferrat epitomizes seaside sophistication with its chic blend of navy and ivory, elegantly presented in a subtle geometric pattern. Bold and sporty, yet timeless and classic, this print will have you speaking French in no time!</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "block-2": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/cap-ferrat",
+            "link_text": "Shop Cap Ferrat",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": ["block-0", "block-1", "block-2"],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJ28-0151CRP_HJ28-0339CRP_HJ28-0444CRP_v2_809e6a84-2a52-4a2d-a95a-53803e43bb8d.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Cap_Ferrat.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Textured Fatigue",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover a world of natural elegance and sophistication with our eco-friendly Textured Fatigue swimwear.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "block-3": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/fatigue-shop-by-print",
+            "link_text": "Explore Textured Fatigue",
+            "button_style": "btn--secondary"
+          }
+        },
+        "block-0": {
+          "type": "accent",
+          "disabled": true,
+          "settings": { "accent": "Accent" }
+        }
+      },
+      "block_order": ["block-1", "block-2", "block-3", "block-0"],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJLE-0431FAS.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Fatigue_Texture.webp",
+        "image_small_aspect_ratio": "landscape",
+        "image_small_focal_point": "center",
+        "background_color": "#fafafa",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "70b04950-717c-4e58-8cbb-ad466bd93469": {
+      "type": "image-with-text",
+      "blocks": {
+        "b76ccaa9-02f7-46bb-8751-ee9822329db4": {
+          "type": "heading",
+          "settings": {
+            "title": "Sand Dunes",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "392927b6-05d4-4865-a248-508738bbc151": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The earthy cinnamon-brown of our Sand Dunes print evokes the art of hand-blocked Indian design and the luxury of natural textiles transporting you to exotic lands far away…The perfect neutral print you won’t want to be without.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "1dc0339e-ac2d-4c86-9343-212f5acda335": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/sand-dunes-shop-by-print",
+            "link_text": "Shop Sand Dunes",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "b76ccaa9-02f7-46bb-8751-ee9822329db4",
+        "392927b6-05d4-4865-a248-508738bbc151",
+        "1dc0339e-ac2d-4c86-9343-212f5acda335"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJ27-0104SDP_HJ27-0312SDP_HJ27-0118SDP_HJ27-0319SDP.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Sand_Dunes.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "4f1c21d6-e800-428c-a087-adb8058cb66c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__4f1c21d6-e800-428c-a087-adb8058cb66c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Tangier",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__4f1c21d6-e800-428c-a087-adb8058cb66c-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Our signature print, Tangier is classic and timeless, with a subtle design that adds a splash to any beach wardrobe. This blue and white print pairs beautifully with our navy resort essentials.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__4f1c21d6-e800-428c-a087-adb8058cb66c-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/tangier-shop-by-print",
+            "link_text": "Discover Tangier",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__4f1c21d6-e800-428c-a087-adb8058cb66c-heading-1",
+        "template--14568811167779__4f1c21d6-e800-428c-a087-adb8058cb66c-subheading-1",
+        "template--14568811167779__4f1c21d6-e800-428c-a087-adb8058cb66c-button-1"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJLE-0435TNP.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Tangier.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "ac1f1ed7-0631-41ca-a818-89e619208e5b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__ac1f1ed7-0631-41ca-a818-89e619208e5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Island Batik Navy",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__ac1f1ed7-0631-41ca-a818-89e619208e5b-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "The navy version of our Island Batik print is a boho-yet-preppy take on our exotic print. Pairs beautifully with our sky blue or our navy solids. The islands are calling…",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__ac1f1ed7-0631-41ca-a818-89e619208e5b-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/island-batik-navy-shop-by-print",
+            "link_text": "Discover Island Batik Navy",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__ac1f1ed7-0631-41ca-a818-89e619208e5b-heading-1",
+        "template--14568811167779__ac1f1ed7-0631-41ca-a818-89e619208e5b-subheading-1",
+        "template--14568811167779__ac1f1ed7-0631-41ca-a818-89e619208e5b-button-1"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJ27-0104BNP_HJ27-0312BNP.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Island_Batik_Navy.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "3780d121-eef7-479c-8cf6-cae3911c1393": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__3780d121-eef7-479c-8cf6-cae3911c1393-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Sky Blue",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__3780d121-eef7-479c-8cf6-cae3911c1393-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "You will love the subtle luxury and silky-soft feel of our Sky Blue fabric. Soft, feminine, and as perfect as a cloudless summer day.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__3780d121-eef7-479c-8cf6-cae3911c1393-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/sky-blue-shop-by-print",
+            "link_text": "Shop Sky Blue",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__3780d121-eef7-479c-8cf6-cae3911c1393-heading-1",
+        "template--14568811167779__3780d121-eef7-479c-8cf6-cae3911c1393-subheading-1",
+        "template--14568811167779__3780d121-eef7-479c-8cf6-cae3911c1393-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJ27-0158SBS_HJ27-0345SBS_HJ27-0443SBS.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Sky_Blue.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "c6b5636f-f992-46e9-9abf-d56b8e79cd95": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__c6b5636f-f992-46e9-9abf-d56b8e79cd95-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Montrose",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__c6b5636f-f992-46e9-9abf-d56b8e79cd95-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Inspired by the beauty found while strolling through the cobblestone streets of Portuguese seaside villages, Montrose takes us back to relaxed afternoons under the Mediterranean sun.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__c6b5636f-f992-46e9-9abf-d56b8e79cd95-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/montrose-shop-by-print",
+            "link_text": "Experience Montrose",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__c6b5636f-f992-46e9-9abf-d56b8e79cd95-heading-1",
+        "template--14568811167779__c6b5636f-f992-46e9-9abf-d56b8e79cd95-subheading-1",
+        "template--14568811167779__c6b5636f-f992-46e9-9abf-d56b8e79cd95-button-1"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJ26-0156MRP_HJ26-0339MRP.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Montrose.webp",
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "d5f36f6d-447e-4adf-8de8-d9e77182d0dd": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14568811167779__d5f36f6d-447e-4adf-8de8-d9e77182d0dd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Island Batik Pink",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--14568811167779__d5f36f6d-447e-4adf-8de8-d9e77182d0dd-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Inspired by our love of vintage Hawaiian fabrics, the exotic vibe of our Island Batik print, in beautiful shades of pink, will take you straight to Waikiki.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "template--14568811167779__d5f36f6d-447e-4adf-8de8-d9e77182d0dd-button-1": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/island-batik-shop-by-print",
+            "link_text": "Discover Island Batik Pink",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14568811167779__d5f36f6d-447e-4adf-8de8-d9e77182d0dd-heading-1",
+        "template--14568811167779__d5f36f6d-447e-4adf-8de8-d9e77182d0dd-subheading-1",
+        "template--14568811167779__d5f36f6d-447e-4adf-8de8-d9e77182d0dd-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/HJ26-0435IBP_v1.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small": "shopify://shop_images/Island_Batik.webp",
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": false,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "52e6c5d9-2387-4e63-92ce-f0884ed13419",
+    "edcda745-a6dc-40a3-9496-88c0d83a1c7c",
+    "54793b59-f8e2-451e-be2d-9c0d517d89aa",
+    "a149f673-6235-414d-b964-823c19b3ebf4",
+    "28dc47f9-441c-49b9-901e-f8ae01ff1521",
+    "acf81a28-8013-4dcd-af0b-24d7a17e5bd5",
+    "4a20d2b1-abb0-419c-85c4-3da640f9c205",
+    "d121142e-5585-4c5c-874b-20caff3e3581",
+    "image_with_text_JbMtXn",
+    "d789a9d9-78ed-4270-af63-87e581c58563",
+    "d2384a6f-aaa5-462d-9187-13fab0bc4b48",
+    "main",
+    "1ad29b7e-f5fa-42cb-9de7-65d71ac7a7bf",
+    "5f184e07-b12c-479e-98d3-8fd9279efc20",
+    "7f1b1fad-ad63-490f-8062-d200dff57501",
+    "5bd37d15-c222-46a6-a450-2df9da1ca154",
+    "6a053ff9-1db7-45e6-9d5e-b8f4757537bd",
+    "image-with-text-2",
+    "image-with-text-1",
+    "70b04950-717c-4e58-8cbb-ad466bd93469",
+    "4f1c21d6-e800-428c-a087-adb8058cb66c",
+    "ac1f1ed7-0631-41ca-a818-89e619208e5b",
+    "3780d121-eef7-479c-8cf6-cae3911c1393",
+    "c6b5636f-f992-46e9-9abf-d56b8e79cd95",
+    "d5f36f6d-447e-4adf-8de8-d9e77182d0dd"
+  ]
+}

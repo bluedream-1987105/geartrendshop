@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "sales_banner_yHLxQq": {
+      "type": "sales-banner",
+      "settings": {
+        "min_height": 300,
+        "min_height_mobile": 500,
+        "sale_type": "Spring Break Ready Sale",
+        "sale_amount": "30",
+        "sale_unit": "percent_off",
+        "terms_and_conditions": "SITE WIDE",
+        "terms_vertical_offset": 0,
+        "sale_font_size": 150,
+        "sale_font_size_mobile": 150,
+        "currency_symbol_position": "before",
+        "heading": "Exclusive Early Access",
+        "heading_font_class": "fs-heading-3-base",
+        "text": "<p><strong>Use code SPRING30 at checkout</strong><br/></p><p>*Excludes Pink Gingham, Lotus Pink & Last Call Styles ~ Cannot be combined with any other discount</p>",
+        "link": "shopify://collections",
+        "link_text": "",
+        "button_style": "btn--callout",
+        "link_2": "shopify://collections",
+        "link_text_2": "",
+        "button_style_2": "btn--callout",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "text_color": "#FFFFFF",
+        "button_background_color": "#FFFFFF",
+        "button_text_color": "#000000",
+        "background_color": "#1fbdbb",
+        "color_overlay": "#000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 15,
+        "layout": "two-columns",
+        "enable_animation": true,
+        "show_frame": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 70,
+        "focal_point": "image_presentation",
+        "text_position": "center_flex-start",
+        "text_position_mobile": "center_flex-start",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 30,
+        "enable_animation": false,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "d4056802-a9f4-402d-b2fd-0f070210daf4": {
+      "type": "promotion-bar",
+      "disabled": true,
+      "settings": {
+        "min_height": 60,
+        "min_height_mobile": 60,
+        "heading": "40% Off All Navy Swim and Resort Wear",
+        "text": "<p>Limited Time! - through 12/17</p>",
+        "link": "shopify://pages/sale-details",
+        "link_text": "Sale Details",
+        "button_style": "btn--secondary",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "background_color": "#0b182f",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "2",
+        "rows": "8",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "3col",
+        "pagination": "click",
+        "enable_animation": true,
+        "divider_style": "none"
+      }
+    },
+    "d29fb1e9-6c87-432e-8002-0bc563fcc103": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14654751408163__d29fb1e9-6c87-432e-8002-0bc563fcc103-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "template--14654751408163__d29fb1e9-6c87-432e-8002-0bc563fcc103-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.description_tag | metafield_tag }}</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654751408163__d29fb1e9-6c87-432e-8002-0bc563fcc103-heading-1",
+        "template--14654751408163__d29fb1e9-6c87-432e-8002-0bc563fcc103-text-1"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "sales_banner_yHLxQq",
+    "banner",
+    "d4056802-a9f4-402d-b2fd-0f070210daf4",
+    "product-grid",
+    "d29fb1e9-6c87-432e-8002-0bc563fcc103"
+  ]
+}
